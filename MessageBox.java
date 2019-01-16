@@ -49,7 +49,7 @@ import android.content.DialogInterface;
   // -----------------
   // add this variable
   // -----------------
-  static MainActivity mContext; // context of main activity, for dialogs
+  static Context mContext; // context of main activity, for dialogs
 
 //  @Override
 //protected void onCreate(Bundle savedInstanceState)

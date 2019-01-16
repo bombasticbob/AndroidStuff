@@ -1,4 +1,4 @@
-// MessageBox.java - Copyright 2019 by Stewart~Frazier Tools, Inc.
+// SkButton.java - Copyright 2019 by Stewart~Frazier Tools, Inc.
 //
 // You have permission to use this as you see fit provided you do not
 // claim to be its author.
