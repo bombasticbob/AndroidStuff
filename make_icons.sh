@@ -195,43 +195,6 @@ for xxx in "xxxhdpi 432 288" "xxhdpi 324 216" "xhdpi 216 144" "hdpi 162 108" "md
 
 done
 
-if test -z "notblank" ; then
-
-# 'foreground' versions
-${CONVERT} -resize 432x432 \
-           $1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png \
-           $1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png
-${CONVERT} -resize 324x324 \
-           $1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png \
-           $1/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png
-${CONVERT} -resize 216x216 \
-           $1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png \
-           $1/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png
-${CONVERT} -resize 162x162 \
-           $1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png \
-           $1/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png
-${CONVERT} -resize 108x108 \
-           $1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png \
-           $1/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png
-
-
-${CONVERT} -resize 432x432 \
-           $1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png \
-           $1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground_round.png
-${CONVERT} -resize 324x324 \
-           $1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png \
-           $1/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground_round.png
-${CONVERT} -resize 216x216 \
-           $1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png \
-           $1/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground_round.png
-${CONVERT} -resize 162x162 \
-           $1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png \
-           $1/app/src/main/res/mipmap-hdpi/ic_launcher_foreground_round.png
-${CONVERT} -resize 108x108 \
-           $1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png \
-           $1/app/src/main/res/mipmap-mdpi/ic_launcher_foreground_round.png
-fi
-
 
 # the 'legacy' versions
 # 144x144 - xxhdpi
